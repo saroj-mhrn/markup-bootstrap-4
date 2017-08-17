@@ -1,0 +1,22 @@
+// ---------------------------------------------------------===
+// Main file
+// ---------------------------------------------------------===
+
+// media-breakpoint-up(lg)        = (min-width)
+// media-breakpoint-down(xl)      = (max-width)
+// media-breakpoint-between(lg,xl)   = (min-width, max-width)
+
+@import "variables";
+@import "vendors/bootstrap/bootstrap";
+
+@import 'vendors/fonts';
+@import "vendors/icomoon";
+
+@import 'base/mixins';
+@import 'base/helpers';
+@import 'base/general';
+
+@import 'layouts/header';
+@import 'layouts/common';
+@import 'layouts/footer';
+

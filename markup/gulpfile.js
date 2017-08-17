@@ -27,7 +27,8 @@ elixir(function(mix) {
     mix.sass('theme.scss','assets/compiled/css/theme.css');
 
     mix.scripts([
-        'plugins/jquery-1.11.2.min.js',
+        'plugins/jquery-3.2.1.slim.min.js',
+        'plugins/popper.min.js',
         'plugins/bootstrap.min.js',
         'plugins',
         'custom'

@@ -3,6 +3,10 @@
 // ---------------------------------------------------------===
 
 // general resets
+html {
+    font-size: $font-size-html;
+}
+
 body {
     min-width: 320px;
 }

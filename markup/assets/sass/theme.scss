@@ -7,7 +7,7 @@
 // media-breakpoint-between(lg,xl)   = (min-width, max-width)
 
 @import "variables";
-@import "vendors/bootstrap/bootstrap";
+@import "node_modules/bootstrap/scss/bootstrap";
 
 @import 'vendors/fonts';
 @import "vendors/icomoon";

@@ -592,6 +592,15 @@ $animation-speed: .3s !default;
 ///     }
 ///   }
 
+@function rem($paddingPixels) {
+    $paddingRems: ();
+    @each $padding in $paddingPixels {
+        $paddingRems: append($paddingRems, strip-unit($padding) / 17 + rem,‘space’);  
+    }
+
+    @return  $paddingRems;
+}
+
 @mixin placeholder {
     &::-webkit-input-placeholder {@content}
     &::-moz-placeholder {opacity: 1; @content}
